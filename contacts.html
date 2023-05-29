@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="css/styleContacts.css">
+    <title>page de contacts</title>
+</head>
+<body>
+    <header id="header" class="header">
+		<div id = "titre" class="titre">
+			<h1 id="h1" class="h1">Mon portfolio</h1>
+		</div>
+		<div id="menu" class="test">
+				<ul class="menu">
+				  <li ><a href="Portfolio.html">Acceuil</a></li>
+				  <li><a href="#">Java</a>
+					<ul class="sousmenu">
+					  <li><a href="Odomo.html">Station Météorologique</a></li>
+					  <li><a href="AI.html">Intelligence Artificielle</a></li>
+					  <li><a href="JPO.html">Jeux journée portes ouverte</a></li>
+					</ul>
+				  </li>
+				  <li><a href="#">C#</a>
+					<ul class="sousmenu">
+					  <li><a href="Hyperstellar.html">Programmation d'un jeux vidéo</a></li>
+					</ul>
+				  </li>
+				  <li><a href="#">HTML</a>
+					<ul class="sousmenu">
+					  <li><a href="HTML.html">Site Web</a></li>
+					</ul>
+				  </li>
+				  <li><a href="#">SQL</a>
+					<ul class="sousmenu">
+					  <li><a href="SQL.html">Création d'une base de donnée</a></li>
+					</ul>
+				  </li>
+				  <li><a href="contacts.html">Contact</a></li>
+				</ul>				
+		</div>
+		<a class = "icon" onclick="myFunction()">&#9776;</a>
+	</header>
+	<script src = "JavaScript/MenuClick.js"></script>
+    <main>
+        <div class="blocGauche">
+            <h3>Me contacter</h3>
+            <div class="contact">
+                <p>téléphone : 07 69 56 23 33</p>
+                <p>mail : bergeras.nicolas@gmail.com </p>
+            </div>
+            <div class="image">
+                <img id="Gmail" src = "images/Gmail-logo.png" alt="logo gmail">
+                <img id="tel" src="images/tel.png" alt="logo téléphone">
+                <img id="insta" src="images/insta.png" alt="logo instagram"> 
+            </div>
+        </div>
+        <div class ="blocDroite">
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom">
+              
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email">
+              
+                <label for="message">Message :</label>
+                <textarea id="message" name="message"></textarea>
+              
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

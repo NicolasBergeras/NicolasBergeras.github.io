@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.icon{
+    display: none;
+}
+
+body{
+    background-image: url('5591276.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+#Gmail{
+    width: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#acceuil:hover{
+    background-color: #dad9d9;
+    border-radius: 5px;
+} 
+
+#tel{
+    width: 10%;
+}
+
+#insta{
+    width: 14%;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-top: 5%;
+}
+
+header {
+    background-color: #3c3c3c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocGauche{
+    flex-basis: 20%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: #eee;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.blocDroite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.input{
+    width: 90%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color:  #3c3c3c;
+    width: 100%;
+    padding-top:5%;
+    padding-bottom: 5%;
+    border-radius: 5px;
+}
+
+#RETEX:hover{
+    background-color: #dad9d9;
+    border-radius: 5px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 30%;
+}
+
+  
+label {
+    margin-bottom: 10px;
+}
+  
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+  
+textarea {
+    height: 150px;
+    resize: none;
+}
+  
+button {
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label{
+    color:white;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .icon{
+        display: block;
+        font-size: 2rem;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .blocDroite{
+        padding-top:5%; 
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    #acceuil{
+        padding-top: 6%;
+    }
+
+    #RETEX{
+        padding-top: 6%;
+    }
+
+    #menu{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1400px) {
+    .icon{
+        display: block;
+        font-size: 2rem;
+    }
+
+    #menu{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu{
+        margin: 0;
+        padding: 0;
+    }
+
+    #menu>ul{
+        display: none;
+    }
+
+    #menu.testresponsive>ul{
+        display: block;
+    }
+
+    #h1.h1responsive{
+        display: none;
+    }
+
+    header{
+        display: flex;
+    }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ma page en Flexbox</title>
+    <link rel = "stylesheet" href="css/style.css">
+</head>
+<body>
+	<header id="header" class="header">
+		<div id = "titre" class="titre">
+			<h1 id="h1" class="h1">Mon portfolio</h1>
+		</div>
+		<div id="menu" class="test">
+				<ul class="menu">
+				  <li ><a href="Portfolio.html">Acceuil</a></li>
+				  <li><a href="#">Java</a>
+					<ul class="sousmenu">
+					  <li><a href="Odomo.html">Station Météorologique</a></li>
+					  <li><a href="AI.html">Intelligence Artificielle</a></li>
+					  <li><a href="JPO.html">Jeux journée portes ouverte</a></li>
+					</ul>
+				  </li>
+				  <li><a href="#">C#</a>
+					<ul class="sousmenu">
+					  <li><a href="Hyperstellar.html">Programmation d'un jeux vidéo</a></li>
+					</ul>
+				  </li>
+				  <li><a href="#">HTML</a>
+					<ul class="sousmenu">
+					  <li><a href="HTML.html">Site Web</a></li>
+					</ul>
+				  </li>
+				  <li><a href="#">SQL</a>
+					<ul class="sousmenu">
+					  <li><a href="SQL.html">Création d'une base de donnée</a></li>
+					</ul>
+				  </li>
+				  <li><a href="contacts.html">Contact</a></li>
+				</ul>				
+		</div>
+		<a class = "icon" onclick="myFunction()">&#9776;</a>
+	</header>
+	<script src = "JavaScript/MenuClick.js"></script>
+	<main>
+		<div class = "grandBloc">
+			<figure id="oui">
+				<img class ="visage" src="images/visage.png">
+				<figcaption>BERGERAS Nicolas</figcaption>
+			</figure>
+			<article>
+				<div class="carte">
+				<div class="Entete">Mes compétences</div>
+				<div class="body">
+					<div class="comp">
+					<div class="nom">HTML</div>
+					<div class="niveau">
+						<div class="TailleBarre" style="width: 80%"></div>
+					</div>
+					<div class="pourcent">80%</div>
+					</div>
+					<div class="comp">
+					<div class="nom">Java</div>
+					<div class="niveau">
+						<div class="TailleBarre" style="width: 85%"></div>
+					</div>
+					<div class="pourcent">85%</div>
+					</div>
+					<div class="comp">
+					<div class="nom">SQL</div>
+					<div class="niveau">
+						<div class="TailleBarre" style="width: 75%"></div>
+					</div>
+					<div class="pourcent">75%</div>
+					</div>
+					<div class="comp">
+						<div class="nom">C#</div>
+						<div class="niveau">
+							<div class="TailleBarre" style="width: 75%"></div>
+						</div>
+						<div class="pourcent">80%</div>
+					</div>
+					<div class="comp">
+						<div class="nom">Python</div>
+						<div class="niveau">
+							<div class="TailleBarre" style="width: 80%"></div>
+						</div>
+						<div class="pourcent">80%</div>
+						</div>
+				</div>
+				</div>  
+			</article>
+		</div>
+		<div class = "blocBAS">
+			<header>
+				<h1 class = "titre">Mes retours d'expériences les plus récents :</h1>
+			</header>
+			<div class = "ligne">
+				<figure class="FigOdomo">
+					<img class="odomoIMG" src="images/station.jpg" alt="photo du projet odomo">
+					<figcaption class="figcaption">
+						<a class="proj" href="Odomo.html">projet station météorologique</a>
+					</figcaption>
+				</figure>
+				<figure class="Biosphere">
+					<img class="AIIMG" src="images/AI.png" alt="photo du projet biosphere">
+					<figcaption class="figcaption">
+						<a class="proj" href="AI.html">programmation d'une IA</a>
+					</figcaption>
+				</figure>
+				<figure class="VMachine">
+					<img class="AIIMG" src="images/jeux-video.png" alt="photo d'une manette'">
+					<figcaption class="figcaption">
+						<a class="proj" href="Hyperstellar.html">Programmation d'un jeux vidéo</a>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

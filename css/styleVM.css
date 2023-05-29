@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.icon{
+    display: none;
+}
+
+body{
+    background-image: url('5591276.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.header {
+    background-color:#3c3c3c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titre{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+
+.global{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+
+.objectifs{
+    background-color: #eee;
+    border-radius: 7px;
+    margin: 20px;
+    padding: 20px;
+    flex-basis: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.moyen{
+    background-color: #eee;
+    border-radius: 7px;
+    margin: 20px;
+    padding: 20px;
+    flex-basis: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.competence{
+    background-color: #eee;
+    border-radius: 7px;
+    margin: 20px;
+    padding: 20px;
+    flex-basis: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#RETEX:hover{
+    background-color: #dad9d9;
+    border-radius: 5px;
+}   
+
+#contacts:hover{
+    background-color: #dad9d9;
+    border-radius: 5px;
+    flex-basis:30%;
+    
+} 
+
+#acceuil:hover{
+    background-color: #dad9d9;
+    border-radius: 5px;
+    flex-basis:30%;
+}
+
+#acceuil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MENUContacts{
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#RETEX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MENUContacts{
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul{
+    padding-top: 3%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color:#dad9d9 ;
+}
+
+img{
+    border-radius: 3%;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .icon{
+        display: block;
+        font-size: 2rem;
+    }
+
+    img{
+        width: 90%;
+    }
+
+    .global{
+        flex-direction: column;
+    }
+
+    .menu{
+        padding-top: 6%;
+    }
+
+    .moyen{
+        margin: 20px;
+        padding: 20px;
+        flex-basis: 200px;
+    }
+
+    .objectifs{
+        margin: 20px;
+        padding: 20px;
+        flex-basis: 200px;
+    }
+
+    .competence{
+        margin: 20px;
+        padding: 20px;
+        flex-basis: 200px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .icon{
+        display: block;
+        font-size: 2rem;
+    }
+
+    #menu{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu{
+        margin: 0;
+        padding: 0;
+    }
+
+    #menu>ul{
+        display: none;
+    }
+
+    #menu.testresponsive>ul{
+        display: block;
+    }
+
+    #h1.h1responsive{
+        display: none;
+    }
+
+    header{
+        display: flex;
+    }
+}
