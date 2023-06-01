@@ -32,10 +32,7 @@ body {
     justify-content: center;
 }
 
-#menu{
-    display: flex;
-    flex-basis: 70%;
-}
+
 
 .menu li {
     float: left;
@@ -50,7 +47,6 @@ body {
     text-decoration: none;
 }
 
-.menu li a:hover {background-color: #199BD2;}
 .menu li a:active {background-color: #808080;}
 
 .menu .sousmenu {

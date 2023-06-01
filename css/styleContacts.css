@@ -6,7 +6,7 @@
 #menu {
     margin: 0;
     padding: 0;
-    font: 14px Arial;
+    font: 18px Arial;
 }
 
 .menu {
@@ -15,11 +15,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#menu{
-    display: flex;
-    flex-basis: 70%;
 }
 
 .menu li {
@@ -35,7 +30,6 @@
     text-decoration: none;
 }
 
-.menu li a:hover {background-color: #199BD2;}
 .menu li a:active {background-color: #808080;}
 
 .menu .sousmenu {
@@ -74,9 +68,13 @@
 }
 
 body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
     background-image: url('5591276.jpg');
     background-size: cover;
     background-position: left;
+    background-repeat: no-repeat;
 }
 
 #Gmail{
@@ -135,6 +133,7 @@ main{
     margin: 20px;
     padding: 20px;
     justify-content: space-around;
+    margin-top: 5%;
 }
 
 .blocDroite{
@@ -165,14 +164,6 @@ form {
 #RETEX:hover{
     background-color: #dad9d9;
     border-radius: 5px;
-}
-
-#menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-basis: 30%;
 }
 
   
@@ -227,7 +218,7 @@ label{
     }
 
     .header{
-        flex-direction: column;
+        flex-direction: row-reverse;
     }
 
     #acceuil{
@@ -240,6 +231,12 @@ label{
 
     #menu{
         flex-direction: column;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        padding-top: 15%;
     }
 }
 
