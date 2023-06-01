@@ -7,6 +7,11 @@
     display: none;
 }
 
+.souligne:hover{
+    padding-top: 4px;
+    text-decoration: underline;
+}
+
 #titre{
     display: flex;
     justify-content: center;

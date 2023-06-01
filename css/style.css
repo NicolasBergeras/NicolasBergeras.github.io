@@ -7,6 +7,11 @@ body {
     background-position: left;
 }   
 
+.souligne:hover{
+    padding-top: 4px;
+    text-decoration: underline;
+}
+
 .icon{
     display: none;
 }
@@ -195,7 +200,6 @@ article{
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-    /*background: linear-gradient(to bottom,#8a8484, #eee);*/
     background-color: #eee;
     margin: 20px;
     padding: 20px;
@@ -211,7 +215,6 @@ li{
 figure{
     width: 50%;
     text-align: center;
-    /*background-color: #eee;*/
     margin: 20px;
     padding: 20px;
     flex-basis: 400px;
@@ -219,7 +222,6 @@ figure{
 }
 
 #oui{
-    /*background: linear-gradient(to bottom,#8a8484, #eee);*/
     background-color: #eee;
     border-radius: 5px;
 }
