@@ -7,6 +7,14 @@ body {
     background-position: left;
 }   
 
+#maForme {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+}
+
+
 .souligne:hover{
     padding-top: 4px;
     text-decoration: underline;
